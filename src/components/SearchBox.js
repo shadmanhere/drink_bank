@@ -15,7 +15,7 @@ export default class SearchBox extends Component {
                 <form
                   onSubmit={value.searchBox}>
                   <div className="form-group">
-                    <label htmlFor="srch">Find your favourite beer here</label>
+                    <label htmlFor="srch">Find your favourite drink here</label>
                     <input type="text" placeholder="search for the beer here" className="form-control" name="searchbox" id="srch" />
                   </div>
                 </form>
